@@ -8,7 +8,6 @@ let total = "";
 
 for (let i = 0; i<columns; i++) {
 	total+="*";
-	console.log(total);
 }
 
 for (let j = 0; j<rows; j++) {
