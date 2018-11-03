@@ -6,12 +6,11 @@ let rows = readline.question("How many rows? \n");
 let columns = readline.question("How many columns? \n");
 let total = "";
 
-const displayPicture = function (n) {
-	n = this;
-	for (var i = 0; i<this.length; i++) {
-		total+="*";
-	};
-};
+for (let i = 0; i<columns; i++) {
+	total+="*";
+	console.log(total);
+}
 
-displayPicture(rows);
-displayPicture(columns);
+for (let j = 0; j<rows; j++) {
+    console.log(total);
+}
